@@ -55,13 +55,13 @@ const link = document.querySelector('.top__link');
 let isVisible = true;
 
 button.addEventListener('click', function() {
-  if (isVisible) {
-    title.style.opacity = '0';
-    link.style.opacity = '0'; // Добавленная строка для скрытия текстового блока
-    isVisible = false;
-  } else {
-    title.style.opacity = '1';
-    link.style.opacity = '1'; // Добавленная строка для отображения текстового блока
-    isVisible = true;
-  }
+    if (isVisible) {
+        title.style.opacity = '0';
+        link.style.opacity = '0'; // Добавленная строка для скрытия текстового блока
+        isVisible = false;
+    } else {
+        title.style.opacity = '1';
+        link.style.opacity = '1'; // Добавленная строка для отображения текстового блока
+        isVisible = true;
+    }
 });
